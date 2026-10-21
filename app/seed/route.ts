@@ -1,3 +1,12 @@
+import { NextResponse } from 'next/server';
+
+export async function GET() {
+  return NextResponse.json({ message: "Seed route temporarily disabled" });
+}
+
+
+
+// Preserving next.JS Tutorial code for initial deployment to vercel without db set up
 {/*
 import bcrypt from 'bcryptjs';
 import postgres from 'postgres';
